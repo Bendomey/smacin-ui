@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+*,
+html,
+body {
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+#nprogress .bar {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: #f2cc85 !important;
+  border: 1px solid #f2cc85;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.scrollContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.scrollContainer::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 500px;
+}
+
+/* Handle on hover */
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+  background: #bdbbbb;
+}
